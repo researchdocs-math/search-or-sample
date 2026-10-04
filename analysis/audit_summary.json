@@ -1,0 +1,156 @@
+{
+  "overall": {
+    "states": 720,
+    "chosen_sample_fraction": 0.05416666666666667,
+    "sample_better_fraction": 0.5930555555555556,
+    "practical_tie_fraction": 0.14722222222222223,
+    "agreement_all": 0.4222222222222222,
+    "agreement_non_ties": 0.4576547231270358,
+    "balanced_accuracy_non_ties": 0.5091551644379417,
+    "spearman": 0.09008131480230018,
+    "mean_log_regret": 0.1614641228685566,
+    "gm_risk_ratio_to_branch_oracle": 1.45032095812699,
+    "mean_regret_nmse": 0.581097551932551,
+    "always_search_gm_risk_ratio_to_branch_oracle": 1.4902448778199524,
+    "always_sample_gm_risk_ratio_to_branch_oracle": 1.2686295197627067,
+    "chosen_search_gm_ratio": 0.9732098259237997,
+    "chosen_sample_gm_ratio": 1.1432186745885182,
+    "query_refresh_gm_ratio": 0.8791325346785478,
+    "refresh_search_gm_ratio": 0.9683287411399149,
+    "query_better_than_refresh_fraction": 0.5847222222222223
+  },
+  "by_stage": {
+    "0": {
+      "states": 240,
+      "chosen_sample_fraction": 0.1125,
+      "sample_better_fraction": 0.5,
+      "practical_tie_fraction": 0.05416666666666667,
+      "agreement_all": 0.5208333333333334,
+      "agreement_non_ties": 0.5286343612334802,
+      "balanced_accuracy_non_ties": 0.5236024844720497,
+      "spearman": 0.16724527253659274,
+      "mean_log_regret": 0.17023274556594872,
+      "gm_risk_ratio_to_branch_oracle": 1.4799012791579436,
+      "mean_regret_nmse": 0.5622035872578384,
+      "always_search_gm_risk_ratio_to_branch_oracle": 1.5934029411905983,
+      "always_sample_gm_risk_ratio_to_branch_oracle": 1.4194423356123207,
+      "chosen_search_gm_ratio": 0.92876775917845,
+      "chosen_sample_gm_ratio": 1.0425934481653614,
+      "query_refresh_gm_ratio": 0.92061160485569,
+      "refresh_search_gm_ratio": 0.9676441926845567,
+      "query_better_than_refresh_fraction": 0.5541666666666667
+    },
+    "1": {
+      "states": 240,
+      "chosen_sample_fraction": 0.016666666666666666,
+      "sample_better_fraction": 0.6458333333333334,
+      "practical_tie_fraction": 0.17916666666666667,
+      "agreement_all": 0.3625,
+      "agreement_non_ties": 0.40609137055837563,
+      "balanced_accuracy_non_ties": 0.5061947856065503,
+      "spearman": 0.051378540754668516,
+      "mean_log_regret": 0.15405509320094601,
+      "gm_risk_ratio_to_branch_oracle": 1.4257884530670342,
+      "mean_regret_nmse": 0.24206528242204023,
+      "always_search_gm_risk_ratio_to_branch_oracle": 1.4283072528576066,
+      "always_sample_gm_risk_ratio_to_branch_oracle": 1.2454831556556127,
+      "chosen_search_gm_ratio": 0.9982365140374851,
+      "chosen_sample_gm_ratio": 1.1447673512023613,
+      "query_refresh_gm_ratio": 0.9377967339217603,
+      "refresh_search_gm_ratio": 0.9298384502455038,
+      "query_better_than_refresh_fraction": 0.5958333333333333
+    },
+    "2": {
+      "states": 240,
+      "chosen_sample_fraction": 0.03333333333333333,
+      "sample_better_fraction": 0.6333333333333333,
+      "practical_tie_fraction": 0.20833333333333334,
+      "agreement_all": 0.38333333333333336,
+      "agreement_non_ties": 0.4263157894736842,
+      "balanced_accuracy_non_ties": 0.5095009157509157,
+      "spearman": 0.07428340769805031,
+      "mean_log_regret": 0.1601045298387751,
+      "gm_risk_ratio_to_branch_oracle": 1.4457877138513104,
+      "mean_regret_nmse": 0.9390237861177744,
+      "always_search_gm_risk_ratio_to_branch_oracle": 1.4542050796147739,
+      "always_sample_gm_risk_ratio_to_branch_oracle": 1.1549118191164653,
+      "chosen_search_gm_ratio": 0.9942117065320021,
+      "chosen_sample_gm_ratio": 1.251859830265978,
+      "query_refresh_gm_ratio": 0.7870057343576905,
+      "refresh_search_gm_ratio": 1.0091257116244141,
+      "query_better_than_refresh_fraction": 0.6041666666666666
+    }
+  },
+  "by_noise": {
+    "0.0": {
+      "states": 360,
+      "chosen_sample_fraction": 0.030555555555555555,
+      "sample_better_fraction": 0.5666666666666667,
+      "practical_tie_fraction": 0.26944444444444443,
+      "agreement_all": 0.44722222222222224,
+      "agreement_non_ties": 0.5361216730038023,
+      "balanced_accuracy_non_ties": 0.5168288726682887,
+      "spearman": 0.020502775040347566,
+      "mean_log_regret": 0.10566086138485943,
+      "gm_risk_ratio_to_branch_oracle": 1.2754424325479081,
+      "mean_regret_nmse": 0.0005610563231299266,
+      "always_search_gm_risk_ratio_to_branch_oracle": 1.3196774911970794,
+      "always_sample_gm_risk_ratio_to_branch_oracle": 1.3129573639793477,
+      "chosen_search_gm_ratio": 0.9664804022617332,
+      "chosen_sample_gm_ratio": 0.971427151817224,
+      "query_refresh_gm_ratio": 1.0032972579967507,
+      "refresh_search_gm_ratio": 0.9916380638330348,
+      "query_better_than_refresh_fraction": 0.5444444444444444
+    },
+    "0.1": {
+      "states": 360,
+      "chosen_sample_fraction": 0.07777777777777778,
+      "sample_better_fraction": 0.6194444444444445,
+      "practical_tie_fraction": 0.025,
+      "agreement_all": 0.3972222222222222,
+      "agreement_non_ties": 0.39886039886039887,
+      "balanced_accuracy_non_ties": 0.4981257307930394,
+      "spearman": 0.05897538548077651,
+      "mean_log_regret": 0.2172673843522538,
+      "gm_risk_ratio_to_branch_oracle": 1.6491774367114616,
+      "mean_regret_nmse": 1.161634047541972,
+      "always_search_gm_risk_ratio_to_branch_oracle": 1.682857979076456,
+      "always_sample_gm_risk_ratio_to_branch_oracle": 1.2257982647170496,
+      "chosen_search_gm_ratio": 0.9799861053138433,
+      "chosen_sample_gm_ratio": 1.345390578679062,
+      "query_refresh_gm_ratio": 0.7703340235111369,
+      "refresh_search_gm_ratio": 0.9455673245268742,
+      "query_better_than_refresh_fraction": 0.625
+    }
+  },
+  "equation_bootstrap_95": {
+    "agreement_all": [
+      0.3597222222222222,
+      0.48055555555555557
+    ],
+    "balanced_accuracy_non_ties": [
+      0.48804606839945314,
+      0.5309962303838155
+    ],
+    "gm_risk_ratio_to_branch_oracle": [
+      1.2865562990899269,
+      1.6502882229225826
+    ],
+    "chosen_search_gm_ratio": [
+      0.9381045235454707,
+      0.9996026703197936
+    ],
+    "chosen_sample_gm_ratio": [
+      1.0505786504281214,
+      1.255906956284436
+    ],
+    "query_refresh_gm_ratio": [
+      0.8086392063962283,
+      0.9480207636147318
+    ],
+    "refresh_search_gm_ratio": [
+      0.8923244287275486,
+      1.0447703987429766
+    ]
+  }
+}

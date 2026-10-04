@@ -1,0 +1,431 @@
+{
+  "audit_trajectories": [
+    {
+      "file": "01d7123d0d55dc94.json",
+      "spec": {
+        "problem": "trig3d",
+        "seed": 709,
+        "noise": 0.0
+      },
+      "verified": true
+    }
+  ],
+  "float_rtol": 1e-10,
+  "float_atol": 1e-12,
+  "verified_runs": [
+    {
+      "directory": "main",
+      "file": "25946795222a9c49.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "poly3",
+        "seed": 100,
+        "noise": 0.0,
+        "query_cost": 0.25,
+        "policy": "adaptive"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "9d2afb25cef04ce0.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "rational",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "adaptive"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "c362be1af7c6b936.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "oscillator",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 4.0,
+        "policy": "sample_always"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "3f5e602f7f2582f8.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "interaction",
+        "seed": 100,
+        "noise": 0.0,
+        "query_cost": 1.0,
+        "policy": "search_only"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "621a493278b7ecc3.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "rational3d",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 0.25,
+        "policy": "uncorrected"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "36c9ff8f5dab3039.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "drag",
+        "seed": 100,
+        "noise": 0.0,
+        "query_cost": 4.0,
+        "policy": "fixed_50_corrected"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "a0a27ab28447d0c9.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "sin2",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "adaptive_random"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "42eae454e249615b.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "poly2d",
+        "seed": 100,
+        "noise": 0.0,
+        "query_cost": 0.25,
+        "policy": "fixed_25"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "cf938bf4f4d452d7.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "sinmix",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "sample_random"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "e83bd91e61d3b52d.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "sincos",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 4.0,
+        "policy": "sample_maximin"
+      },
+      "verified": true
+    },
+    {
+      "directory": "engineering",
+      "file": "900a21aea09c6621.json",
+      "spec": {
+        "budget": 96,
+        "pool_size": 384,
+        "initial_labels": 32,
+        "warmup": 2,
+        "engine": {
+          "population": 48,
+          "generations": 3,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "airfoil",
+        "seed": 300,
+        "noise": 0.0,
+        "query_cost": 1.0,
+        "policy": "adaptive"
+      },
+      "verified": true
+    },
+    {
+      "directory": "engineering",
+      "file": "4b503648d823104c.json",
+      "spec": {
+        "budget": 96,
+        "pool_size": 384,
+        "initial_labels": 32,
+        "warmup": 2,
+        "engine": {
+          "population": 48,
+          "generations": 3,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "concrete",
+        "seed": 300,
+        "noise": 0.0,
+        "query_cost": 1.0,
+        "policy": "sample_always"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "8fb040a68e28242e.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "poly3",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "fixed_50"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "d58808a416e76050.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "rational",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "fixed_75"
+      },
+      "verified": true
+    },
+    {
+      "directory": "main",
+      "file": "e1fd1181ae931f26.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "oscillator",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "resample_only"
+      },
+      "verified": true
+    },
+    {
+      "directory": "sensitivity_large",
+      "file": "181bbef9e9a1a2b3.json",
+      "spec": {
+        "budget": 128,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 64,
+          "generations": 3,
+          "depth": 5,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "rational",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 0.25,
+        "policy": "adaptive"
+      },
+      "verified": true
+    },
+    {
+      "directory": "sensitivity_large",
+      "file": "b1c7821c390cf2db.json",
+      "spec": {
+        "budget": 128,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 64,
+          "generations": 3,
+          "depth": 5,
+          "bootstraps": 3,
+          "restarts": 3
+        },
+        "problem": "rational",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 0.25,
+        "policy": "sample_always"
+      },
+      "verified": true
+    },
+    {
+      "directory": "sensitivity_b5r3",
+      "file": "4891bc67ff1586a7.json",
+      "spec": {
+        "budget": 64,
+        "pool_size": 384,
+        "initial_labels": 16,
+        "warmup": 2,
+        "engine": {
+          "population": 32,
+          "generations": 2,
+          "depth": 4,
+          "bootstraps": 5,
+          "restarts": 3
+        },
+        "problem": "rational",
+        "seed": 100,
+        "noise": 0.1,
+        "query_cost": 1.0,
+        "policy": "adaptive"
+      },
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the experimental implementation or results."
+type: software
+title: "Search or Sample? Budgeting Symbolic Regression"
+version: 1.0.0
+date-released: 2026-10-04
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+license: MIT
+keywords:
+  - symbolic regression
+  - genetic programming
+  - active learning
+  - resource allocation
+  - uncertainty diagnostics
+abstract: "Reproducible experiments on allocation of computation and observations in evolutionary symbolic regression, including nested bootstrap-search diagnostics, equal-cost counterfactual actions, synthetic equations, and engineering datasets."

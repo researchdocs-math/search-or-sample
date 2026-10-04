@@ -1,0 +1,86 @@
+{
+  "rule": "Minimum mean log10(NMSE+1e-8) on all development functions, seeds, and noise levels; separately by label price.",
+  "selected": {
+    "0.25": "sample_always",
+    "1.0": "sample_always",
+    "4.0": "sample_always"
+  },
+  "development_sha256": "7630e75e1720d6857434c4d4c9eac7242489300e8892f8d7f0b43c53a01bf609",
+  "scores": [
+    {
+      "query_cost": 0.25,
+      "policy": "fixed_25",
+      "mean_log10_nmse": -3.861629435939002
+    },
+    {
+      "query_cost": 0.25,
+      "policy": "fixed_50",
+      "mean_log10_nmse": -3.9682147530938496
+    },
+    {
+      "query_cost": 0.25,
+      "policy": "fixed_75",
+      "mean_log10_nmse": -4.032839468553678
+    },
+    {
+      "query_cost": 0.25,
+      "policy": "sample_always",
+      "mean_log10_nmse": -4.155915527227429
+    },
+    {
+      "query_cost": 0.25,
+      "policy": "search_only",
+      "mean_log10_nmse": -3.2780688797023334
+    },
+    {
+      "query_cost": 1.0,
+      "policy": "fixed_25",
+      "mean_log10_nmse": -3.8447982157196776
+    },
+    {
+      "query_cost": 1.0,
+      "policy": "fixed_50",
+      "mean_log10_nmse": -3.8531432062466298
+    },
+    {
+      "query_cost": 1.0,
+      "policy": "fixed_75",
+      "mean_log10_nmse": -3.9833509113185332
+    },
+    {
+      "query_cost": 1.0,
+      "policy": "sample_always",
+      "mean_log10_nmse": -4.00304920012851
+    },
+    {
+      "query_cost": 1.0,
+      "policy": "search_only",
+      "mean_log10_nmse": -3.2780688797023334
+    },
+    {
+      "query_cost": 4.0,
+      "policy": "fixed_25",
+      "mean_log10_nmse": -3.675716048401041
+    },
+    {
+      "query_cost": 4.0,
+      "policy": "fixed_50",
+      "mean_log10_nmse": -3.736418315797968
+    },
+    {
+      "query_cost": 4.0,
+      "policy": "fixed_75",
+      "mean_log10_nmse": -3.739134608067308
+    },
+    {
+      "query_cost": 4.0,
+      "policy": "sample_always",
+      "mean_log10_nmse": -3.7770966686339427
+    },
+    {
+      "query_cost": 4.0,
+      "policy": "search_only",
+      "mean_log10_nmse": -3.2780688797023334
+    }
+  ]
+}

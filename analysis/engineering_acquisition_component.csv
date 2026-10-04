@@ -1,0 +1,3 @@
+reference,comparator,outcome,paired_runs,clusters,ratio,lower,upper,win_fraction,tie_fraction
+fixed_50_corrected,fixed_50,log_nmse,180,2,0.9981127375770767,0.9886012606457034,1.0077157258154021,0.5,0.0
+fixed_50_corrected,fixed_50,log_ood_nmse,180,2,0.9981127375770767,0.9886012606457034,1.0077157258154021,0.5,0.0

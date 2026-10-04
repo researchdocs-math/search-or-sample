@@ -1,0 +1,45 @@
+{
+  "problems": [
+    "rational",
+    "interaction",
+    "oscillator",
+    "rational3d"
+  ],
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "noise_levels": [
+    0.1
+  ],
+  "query_costs": [
+    1.0
+  ],
+  "policies": [
+    "adaptive",
+    "search_only",
+    "sample_always",
+    "fixed_50"
+  ],
+  "common": {
+    "budget": 64,
+    "pool_size": 384,
+    "initial_labels": 16,
+    "warmup": 2,
+    "engine": {
+      "population": 32,
+      "generations": 2,
+      "depth": 4,
+      "bootstraps": 5,
+      "restarts": 3
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-04T12:25:25.014979+00:00",
+  "study": "search-or-sample",
+  "primary_policy": "adaptive: mean corrected bootstrap dispersion divided by 1+query_cost exceeds mean restart dispersion divided by R",
+  "primary_outcome": "final latent interpolation NMSE; log10(NMSE+1e-8) aggregated equally by equation and regime",
+  "secondary_outcomes": [
+    "expanded-domain NMSE",
+    "labels purchased",
+    "offspring evaluations",
+    "wall time",
+    "NMSE versus composite budget"
+  ],
+  "baseline_selection": "Choose the best fixed allocation rate separately by query cost from development tasks only, averaging log10(NMSE+1e-8) across all three development functions, both noise levels and all 12 seeds. Freeze before reading main results. Rates 0, .25, .5, .75, 1.",
+  "inference": "Paired differences; equation-cluster percentile bootstrap 10000 resamples, retaining all matched seeds/noise/costs in each cluster. Descriptive regime heatmaps. No claim of benchmark-wide algorithm dominance.",
+  "sensitivity": "Preplanned depth5/population64/generations3 budget128 on rational, interaction, oscillator, rational3d; all 20 main seeds; noise.1; costs.25,4; adaptive,search_only,sample_always,fixed_50,uncorrected. B,R sensitivity pairs (2,2),(3,5),(5,3) on same four functions with 10 seeds, cost1, noise.1.",
+  "engineering": "Airfoil and concrete pool based retrospective label acquisition; random75/25 splits,384 pool rows,initial32;30 seeds;cost.25,1,4;budget96;population48,generations3;no added noise.",
+  "counterfactual_audit": "Clone the same frozen pre-action state and run the unchosen and chosen actions. Compare a cost-matched integer horizon: five searches versus one label followed by four searches at lambda1. Evaluate on fresh held-out audit points. These targets never enter live policy or tuning. Record tie rate and actual risk reductions.",
+  "novelty_limits": "Nested variance component subtraction is classical; the research target is its operational reliability as a two-resource decision signal in evolutionary symbolic regression. Persistent adaptive trajectories do not satisfy iid nested random-effects assumptions exactly.",
+  "hardware": "Evaluate compiled CPU and Metal GPU tree prediction before backend selection; parallelize independent experiment runs.",
+  "sha256": {
+    "sos/engine.py": "91e67cea4d7b43a2df82bfcf2850c19737a6c2329097a820763c8c1562f8c2ff",
+    "sos/experiment.py": "163181dac22ebc0d3be1b7e17ae5b7bbfb33118e163fc45f7bbf3095de64452b",
+    "sos/problems.py": "a10894d8ee0d7d9649a12e621362eccb8713a1afa8320cc78fdcbdc0e26bd4ce",
+    "configs/main.json": "a83da6b09847b2e3479aa52262094bd921a67c733816518bc7d25dfc4541e91e"
+  }
+}

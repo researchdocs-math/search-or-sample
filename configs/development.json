@@ -1,0 +1,54 @@
+{
+  "problems": [
+    "pilot_cubic",
+    "pilot_trig",
+    "pilot_ratio"
+  ],
+  "seeds": [
+    9011,
+    9012,
+    9013,
+    9014,
+    9015,
+    9016,
+    9017,
+    9018,
+    9019,
+    9020,
+    9021,
+    9022
+  ],
+  "noise_levels": [
+    0.0,
+    0.1
+  ],
+  "query_costs": [
+    0.25,
+    1,
+    4
+  ],
+  "policies": [
+    "adaptive",
+    "search_only",
+    "sample_always",
+    "fixed_25",
+    "fixed_50",
+    "fixed_75",
+    "uncorrected",
+    "adaptive_random",
+    "fixed_50_corrected",
+    "adaptive_total",
+    "adaptive_max"
+  ],
+  "common": {
+    "budget": 96,
+    "pool_size": 384,
+    "engine": {
+      "population": 48,
+      "generations": 3,
+      "depth": 4,
+      "bootstraps": 3,
+      "restarts": 3
+    }
+  }
+}

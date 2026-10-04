@@ -1,0 +1,24 @@
+[
+  {
+    "name": "airfoil",
+    "url": "https://archive.ics.uci.edu/static/public/291/airfoil+self+noise.zip",
+    "doi": "10.24432/C5VW2C",
+    "license": "CC BY 4.0",
+    "rows": 1503,
+    "features": 5,
+    "sha256_csv": "edee1d3483abb29c7ffd57cf3db51650948ddd5bf51d749e1cc2e39a1e8cb019",
+    "sha256_download": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+    "transformation": "numeric CSV export, preserving original column order and rows"
+  },
+  {
+    "name": "concrete",
+    "url": "https://archive.ics.uci.edu/static/public/165/concrete+compressive+strength.zip",
+    "doi": "10.24432/C5PK67",
+    "license": "CC BY 4.0",
+    "rows": 1030,
+    "features": 8,
+    "sha256_csv": "ac8008b4074af49e6eb55c5b02d36b5651c60c98a503da9c0e8744b19bbab74a",
+    "sha256_download": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+    "transformation": "numeric CSV export, preserving original column order and rows"
+  }
+]

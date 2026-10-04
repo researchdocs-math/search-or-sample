@@ -1,0 +1,71 @@
+{
+  "problems": [
+    "poly3",
+    "poly4",
+    "sinmix",
+    "sincos",
+    "sin2",
+    "interaction",
+    "rational",
+    "poly2d",
+    "trig3d",
+    "rational3d",
+    "oscillator",
+    "drag"
+  ],
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "noise_levels": [
+    0.0,
+    0.1
+  ],
+  "query_costs": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "policies": [
+    "adaptive",
+    "search_only",
+    "sample_always",
+    "fixed_25",
+    "fixed_50",
+    "fixed_75",
+    "uncorrected",
+    "adaptive_random",
+    "fixed_50_corrected"
+  ],
+  "common": {
+    "budget": 64,
+    "pool_size": 384,
+    "initial_labels": 16,
+    "warmup": 2,
+    "engine": {
+      "population": 32,
+      "generations": 2,
+      "depth": 4,
+      "bootstraps": 3,
+      "restarts": 3
+    }
+  }
+}

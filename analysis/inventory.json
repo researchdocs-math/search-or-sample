@@ -1,0 +1,8 @@
+{
+  "main": 17280,
+  "engineering": 2160,
+  "sensitivity_large": 800,
+  "sensitivity_b2r2": 160,
+  "sensitivity_b3r5": 160,
+  "sensitivity_b5r3": 160
+}
